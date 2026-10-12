@@ -1,0 +1,51 @@
+{
+  "enquestes": [
+    {
+      "id": 1,
+      "titol": "Satisfacció usuaris",
+      "activa": true,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Nom i cognoms",
+          "tipus": "text_lliure"
+        },
+        {
+          "ordre": 2,
+          "text": "Satisfaccio amb el curs",
+          "tipus": "opcio_multiple",
+          "opcions" : ["Be","Regular","Malament"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titol": "Cancions preferides",
+      "activa": false,
+      "preguntes": [
+        {
+          "ordre": 1,
+          "text": "Títol",
+          "tipus": "text_lliure"
+        },
+        {
+          "ordre": 2,
+          "text": "Idioma",
+          "tipus": "opcio_multiple",
+          "opcions" : ["Català","Angles","Castella"]
+        },
+        {
+          "ordre": 3,
+          "text": "Nom del cantant",
+          "tipus": "text_lliure"
+        },
+        {
+          "ordre" : 4,
+          "text" : "Genre",
+          "tipus" : "opcio_multiple",
+          "opcions" : ["Rock","Pop","Regetton"]
+        }
+      ]
+    }
+  ]
+}
