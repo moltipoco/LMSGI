@@ -46,4 +46,4 @@ Els fragments XML següents contenen **errors de format**. Per a cada fragment:
 - En la asignatura de matemáticas está mal cerrado el tag < classe inici="08:00" fi="09:00">Matemàtiques< classe >. 
 Tendría que ser < /classe >
 ## Solución fragmento 1.2
-- [Fragment 1.2 horari](:/horari.xml)
+- [Fragment 1.2 horari](./horari.xml)
