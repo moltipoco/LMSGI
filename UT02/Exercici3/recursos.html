@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="PATRIMONI DE LA HUMANITAT A ESPANYA, Patrimoni de la humanitat, Recursos Web"/>
+    <title>Recursos: Patrimoni de la Humanitat</title>
+    <link rel="stylesheet" href="css/estil.css"/>
+    <!--    https://stackoverflow.com/questions/59431371/use-emoji-as-favicon-in-websites
+            https://www.w3schools.com/charsets/default.asp
+    -->
+    <link rel="icon" href="imatges/recursos_favicon.svg" />
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>RECURSOS ASOCIATS AL PATRIMONI DE ESPANYA</h1>
+    <p>With a <b>Flex</b> layout.</p>
+</header>
+
+<!-- Navigation Bar -->
+<nav class="navbar" id="top">
+    <ul>
+        <li><a href="./index.html">Inici</a></li>
+        <li><a href="./culturals.html">Béns Culturals</a></li>
+        <li><a href="./naturals.html">Béns Naturals</a></li>
+        <li><a href="#top" class="link-active" aria-current="page">Recursos</a></li>
+    </ul>
+</nav>
+
+<!-- Content Container -->
+<div class="container">
+    <main class="main">
+        <section>
+            <h2>Enllaços</h2>
+            <h5>Nov 12, 2026</h5>
+            <p>Llistat d'enllaços amb un &lt;li&gt;:</p>
+            <ul class="llista-enlaces">
+                <li><a href="https://www.unesco.org" title="Web oficial UNESCO"
+                target="_blank">Web oficial UNESCO</a></li>
+                <li><a href="https://www.patrimoni.cat" title="Web patrimoni.cat"
+                target="_blank">Web patrimoni.cat</a></li>
+                <li><a href="https://www.cultura.gob.es" title="Ministeri de Cultura"
+                target="_blank">Ministeri de Cultura</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Imatges</h2>
+            <h5>Nov 11, 2026</h5>
+            <p>Galeria d'imatges segons <a href="https://www.w3schools.com/howto/howto_js_slideshow.asp">w3schools.com</a>:</p>
+            <!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="imatges/12_Vista_general_del_techo_de_polícromos.jpg"  alt="Coves d'Altamira">
+                    <div class="text">Coves d'Altamira</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="imatges/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg" alt="Alhambra de Granada" >
+                    <div class="text">Alhambra de Granada</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="imatges/Caminos_de_Santiago_España_(por_grupos).svg.webp" alt="Camí de Santiago">
+                    <div class="text">Camí de Santiago</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+        <section>
+            <h2>Vídeos</h2>
+            <h5>Nov 13, 2026</h5>
+            <p>Vídeos del patrimoni d'Espanya:</p>
+            <div class="video">
+                <video controls="">
+                    <source src="videos/viedo.is.too.big.for.github.mp4" type="video/mp4">
+                    <source src="videos/viedo.is.too.big.for.github.webm" type="video/webm">
+                    Su navegador no soporta el tag vídeo.
+                </video>
+                <video controls="">
+                    <source src="videos/viedo.is.too.big.for.github.mp4" type="video/mp4">
+                    <source src="videos/viedo.is.too.big.for.github.webm" type="video/webm">
+                    Su navegador no soporta el tag vídeo.
+                </video>
+            </div>
+        </section>
+    </main>
+    <aside class="side">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tempor sapien eu ante commodo tempus. Cras
+            finibus, velit eget iaculis cursus, magna velit laoreet enim, vel molestie nunc diam non magna. Fusce eros
+            erat, iaculis vitae magna eu, tincidunt rhoncus mauris. Integer placerat orci sed vulputate tincidunt.
+            Quisque egestas dignissim nisl. Mauris hendrerit sollicitudin sem at pretium. Praesent et dolor ut nisl
+            tempor dictum quis in est. Nam vitae aliquam nunc. Phasellus eros neque, pharetra a consectetur non,
+            ultrices consectetur tellus. Curabitur tincidunt velit non nisl suscipit, vitae suscipit dolor rhoncus.
+            Fusce in risus mollis, commodo tortor a, convallis dui. Aliquam sit amet turpis et sapien malesuada
+            consequat sed dapibus libero. Duis quis dolor id felis interdum malesuada..</p>
+        <h3>More Text</h3>
+        <p>Integer quis ultricies lacus, eget pharetra dui. Nullam ac molestie lorem. In eu sollicitudin dui.
+            Aliquam augue arcu, tincidunt eget quam non, dictum efficitur felis. Mauris condimentum fringilla odio.
+            Maecenas elit diam, consectetur aliquet convallis vel, finibus in nisl. Pellentesque interdum nisi id
+            rutrum imperdiet. Donec at lorem in neque dapibus efficitur. Orci varius natoque penatibus et magnis dis
+            parturient montes, nascetur ridiculus mus. Quisque molestie sollicitudin varius.
+        </p>
+    </aside>
+</div>
+
+<!-- Footer -->
+<footer>
+    <h2>&copy; 2026 Patrimonis d'Espanya</h2>
+</footer>
+
+<!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+    }
+</script>
+</body>
+</html>
