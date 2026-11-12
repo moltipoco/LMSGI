@@ -22,8 +22,8 @@ transmetem a les generacions futures.»
 
 # Solución
 
-* [index.html](./index.html)
-* [culturals.html](./culturals.html)
-* [naturals.html](./naturals.html)
-* [recursos.html](./recursos.html)
-* [estil.css](../css/estil.css)
+- [index.html](./index.html)
+- [culturals.html](./culturals.html)
+- [naturals.html](./naturals.html)
+- [recursos.html](./recursos.html)
+- [estil.css](../css/estil.css)

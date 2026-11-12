@@ -95,5 +95,5 @@ Requisits del CSS:
 
 # Solución
 
-[original.html](./original.html)
-[estil.css](./estil.css)
+- [original.html](./original.html)
+- [estil.css](./estil.css)
